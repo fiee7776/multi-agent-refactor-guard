@@ -1,0 +1,7 @@
+{
+  "command": "pytest -q",
+  "returncode": 0,
+  "stdout": "..                                                                       [100%]\n2 passed in 0.01s\n",
+  "stderr": "",
+  "passed": true
+}
