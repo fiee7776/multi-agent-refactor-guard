@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Keep output directory structure but ignore generated run artifacts
+outputs/**
+!outputs/.gitkeep
+!outputs/patches/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/logs/.gitkeep
