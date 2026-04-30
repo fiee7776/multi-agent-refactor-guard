@@ -13,7 +13,7 @@ A runnable Python project that demonstrates a multi-agent workflow for code qual
 ## Quick Start
 
 ```powershell
-cd C:\Users\xusha\Desktop\python\multi-agent-refactor-guard
+cd <repo-root>
 pip install -r requirements.txt
 python -m agents.orchestrator --repo examples/sample_repo
 ```
@@ -21,9 +21,11 @@ python -m agents.orchestrator --repo examples/sample_repo
 ## Run Tests
 
 ```powershell
-cd C:\Users\xusha\Desktop\python\multi-agent-refactor-guard
+cd <repo-root>
 pytest -q
 ```
+
+Replace `<repo-root>` with the path where you cloned or unpacked this repository.
 
 ## Output Files
 
